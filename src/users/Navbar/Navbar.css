@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed; /* Fix the navbar at the top */
+    top: 0;
+    right: 0; /* Align to the right */
+    width: 100%; /* Full width */
+    background-color: black; /* Background color */
+    padding: 25px 50px; /* Padding for the navbar */
+    z-index: 10; /* Ensure it's above other content */
+}
+
+nav ul {
+    list-style: none;
+    display: flex; /* Flexbox for horizontal alignment */
+    justify-content: flex-end; /* Align items to the right */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+    display: inline; /* Inline display for list items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline */
+    color: rgb(255, 255, 255); /* Text color */
+    font-size: 1em; /* Font size */
+    padding: 10px 15px; /* Padding for links */
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    color: #e91e63; /* Hover color */
+}
+
+.login-btn {
+    border: 2px solid white; /* Button border */
+    padding: 5px 20px; /* Button padding */
+    border-radius: 30px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.login-btn:hover {
+    background-color: rgba(233, 30, 99, 0.2); /* Hover effect for the button */
+}
+
+/* .content {
+    margin-top: 80px; 
+    padding: 20px; 
+} */

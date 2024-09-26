@@ -1,0 +1,38 @@
+.booking {
+    margin-left: 250px;
+    padding: 20px;
+    margin-right: 10px;
+  }
+  
+  .bookingtable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .bookingtable th, .bookingtable td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .filter-buttons {
+    margin-bottom: 20px;
+  }
+  
+  .filter-button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .filter-button.active {
+    color: #ffffff;
+    background-color: #e91e63;
+  }
+  
+  .filter-button:not(.active) {
+    background-color: #f1f1f1;
+  }
+  
+  

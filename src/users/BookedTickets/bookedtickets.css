@@ -1,0 +1,84 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+} */
+
+.bookedtickets-container {
+    margin: 100px auto;
+    /* max-width: 600px; */
+    width: 70%;
+    /* margin: 20px auto; */
+    padding: 20px;
+    background: #fff;
+    /* border-radius: 8px; */
+    /* margin-top: 50px; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;}
+
+.bookedtickets-container h1 {
+    text-align: center;
+    color: #333;
+}
+
+.ticket-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ticket-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #e9ecef;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.ticket-item:hover {
+    /* background: #d1d1d1; */
+    background: #f4f4f4;;
+}
+
+.ticket-info {
+    flex: 1;
+}
+
+.ticket-item h2 {
+    margin: 0;
+    color: #000000;
+}
+
+.ticket-item p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.ticket-image-container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+}
+
+.ticket-image {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.cancel-button {
+    margin-top: 5px;
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.cancel-button:hover {
+    background-color: #c82333;
+}
